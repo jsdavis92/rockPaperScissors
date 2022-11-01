@@ -1,20 +1,5 @@
-/*
-  Rock Paper Scissors 🚀🔥
-  Concepts covered in this project
-    👉 For loops
-    👉 Dom Manipulation
-    👉 Variables
-    👉 Conditionals (if else if)
-    👉 Template Literals
-    👉 Event Listeners
-    👉 Higher order Function (Math.random())
-*/
 
 const totalScore = { computerScore: 0, playerScore: 0 }
-// ** getComputerChoice randomly selects between `rock` `paper` `scissors` and returns that string **
-// getComputerChoice() 👉 'Rock'
-// getComputerChoice() 👉 'Scissors'
-
 
 
 
@@ -27,10 +12,6 @@ let comp = ['Rock', 'Paper', 'Scissors']
 
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
-// human wins - getResult('Rock', 'Scissors') 👉 1
-// human loses - getResult('Scissors', 'Rock') 👉 -1
-// human draws - getResult('Rock', 'Rock') 👉 0
-
 
 
 
@@ -113,10 +94,6 @@ function playGame() {
   })
   // * Adds an on click event listener to each RPS button and every time you click it, it calls the onClickRPS function with the RPS button that was last clicked *
 
-  // 1. loop through the buttons using a forEach loop
-  // 2. Add a 'click' event listener to each button
-  // 3. Call the onClickRPS function every time someone clicks
-  // 4. Make sure to pass the currently selected rps button as an argument
 
 
 
