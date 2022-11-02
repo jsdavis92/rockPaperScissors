@@ -69,7 +69,7 @@ function showResult(score, playerChoice, computerChoice) {
   }
   handsDiv.innerText = `👦 ${playerChoice} vs 🤖 ${computerChoice}`
   playerScoreDiv.innerText = 'Your Score' + ": " + totalScore['playerScore']
-  computerScoreDiv.innerText = 'Computer Score' + ': ' + totalScore['computerScore']
+//   computerScoreDiv.innerText = 'Computer Score' + ': ' + totalScore['computerScore']
 }
 
 // ** Calculate who won and show it on the screen **
